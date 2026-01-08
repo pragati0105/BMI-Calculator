@@ -1,4 +1,4 @@
-const form = document.querySelector("form");
+const form = document.querySelector("#bmi-form");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -26,3 +26,4 @@ form.addEventListener("submit", function (e) {
     results.innerHTML = `Your BMI is <strong>${bmi}</strong> (${output}) `;
   }
 });
+
